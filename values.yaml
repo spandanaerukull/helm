@@ -1,0 +1,6 @@
+deployment:
+  replicas: 4
+  imageVersion: stable-otel
+service:
+  targetPort: 80
+# The Service of type LoadBalancer is used to expose the Pod named nginx-lb externally using a cloud provider's load balancer

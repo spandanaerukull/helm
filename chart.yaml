@@ -1,0 +1,10 @@
+apiVersion: v2
+name: nginx
+version: 1.0.0 # Chart version
+description: nginx helm chart description 
+appVersion: 1.0.0  # Application version
+
+# helm charts is used to package multiple kubernetes resources into a single unit for deployment and management.
+# It helps in managing complex applications by bundling all the necessary components together.
+# A helm chart typically contains templates for Kubernetes resources like Deployments, Services, ConfigMaps, etc.
+# Helm charts also support versioning, making it easier to manage updates and rollbacks of applications

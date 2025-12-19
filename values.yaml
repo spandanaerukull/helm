@@ -1,3 +1,5 @@
+# Helm values file
+# This file contains default values for the Helm chart
 deployment:
   replicas: 4
   imageVersion: stable-otel

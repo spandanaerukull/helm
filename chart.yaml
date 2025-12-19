@@ -1,5 +1,8 @@
-apiVersion: v2
-name: nginx
+apiVersion: v2 # helm chart api version
+name: nginx # chart name
 version: 1.0.0 # chart version
 description: nginx helm chart description
 appVersion: 1.0.1 # application version
+
+# chart.yam is used to define the metadata of the Helm chart including its name, version, description, and the version of the application it deploys.
+# when we are using the first this is used to define the chart metadata
